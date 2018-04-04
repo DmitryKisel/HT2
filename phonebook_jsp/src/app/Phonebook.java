@@ -71,6 +71,7 @@ public class Phonebook {
 		}
 	}
 
+	//Добавление номера
 	public boolean addNumber(Person person, String number)
 	{
 		ResultSet db_result;
@@ -102,6 +103,7 @@ public class Phonebook {
 		}
 	}
 	
+	//Изменение номера
 	public boolean updateNumber(Person person, String phoneID, String number)
 	{
 		
