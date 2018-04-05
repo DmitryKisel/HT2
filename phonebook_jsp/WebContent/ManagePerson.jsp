@@ -66,7 +66,7 @@
         	
         	  out.write("<tr><td>" + phone.getValue() + "</td>" + "<td><a href='" + request.getContextPath() + "/?action=editNumber&id=" + person.getId() +"&phoneID=" + phone.getKey() +"'>Редактировать</a></td>"
         			  + "<td><a href='" + request.getContextPath() + "/?action=deleteNumber&id=" + person.getId() +"&phoneID=" + phone.getKey() +"'>Удалить</a></td>"); 
-        //!!!!!!!!!!!!!!!!!!! delete and edit
+        
            }
        %>
          <tr><td>
